@@ -1,0 +1,88 @@
+===========================
+"Code" Manual
+===========================
+
+This document provides an overview of the folder structure within the `Code` directory, instructions on how to run or edit each application, and notes on the build and output process.
+
+---------------------------
+Folder Structure Overview
+---------------------------
+
+Each folder inside the `Code` directory represents a separate application or shared component. Below is a breakdown of each:
+
+1. LTLogIn code\
+   - Description: Main login interface for the BIGTEST application suite.
+   - Entry Point: `LTLogIn.sln`
+   - Dependencies: References "Shared" project.
+
+2. PrtrDef code\
+   - Description: Application used to instantiate a test environment within a user's instance of VPSX for ClientLoadTester to send tests to.
+   - Entry Point: `PrtrDef.sln`
+   - Dependencies: References "Shared" project.
+
+3. theOneDriver code\
+   - Description: Handles background operations and driver interactions.
+   - Entry Point: `theOneDriver.sln`
+   - Dependencies: References "Shared" project.
+
+4. ClientLoadTester code\
+   - Description: Windows desktop application used to send out tests and grab analytics.
+   - Entry Point: `ClientLoadTester.sln`
+   - Dependencies: Currently none. Will eventually reference Shared project. Originally targeted .NET Framework 4.7.2.
+
+5. Shared\
+   - Description: Contains shared code and utilities used across all applications (e.g., logging, path resolution).
+   - Entry Point: `Shared.csproj` (no standalone .sln file, but referenced by others).
+
+---------------------------
+How to Run or Edit the Code
+---------------------------
+
+1. Open the appropriate `.sln` file for the app you'd like to edit:
+   - LTLogIn:          `LTLogIn.sln` in "LTLogIn code"
+   - PrtrDef:          `PrtrDef.sln` in "PrtrDef code"
+   - theOneDriver:     `theOneDriver.sln` in "theOneDriver code"
+   - ClientLoadTester: `ClientLoadTester.sln` in "ClientLoadTester code"
+
+2. Use Visual Studio (2022 or later is recommended) to load the solution.
+
+3. Make any necessary code changes.
+
+4. Once finished, use **Build > Build Solution (Ctrl+Shift+B)** to compile the code.
+
+---------------------------
+Where Are the EXE Files?
+---------------------------
+
+After building, the application `.exe` files will be automatically placed in the correct directories as configured in each project's `.csproj` file. You do **not** need to move files manually.
+
+To verify the output location of a successful build:
+
+- Check the **Output Window** in Visual Studio.
+- Look for a line that follows the structure: "nameofsln" -> "somelocation"
+- ex) theOneDriver -> C:\Users\e7633\Desktop\BIGTEST\LTLogIn\bin\Debug\net8.0-windows\CLT\theOneDriver\theOneDriver.dll
+- The location after "->" shows you the exact path the build artifacts (EXEs, DLLs) have been placed in.
+
+---------------------------
+Build Key
+---------------------------
+
+| App               | Build File Path                       |
+|-------------------|---------------------------------------|
+| LTLogIn           | ``             |
+| PrtrDef           | ``             |
+| theOneDriver      | `` 	     |
+| ClientLoadTester  | ``             |
+
+| Shared            | Referenced via `Shared.csproj` only   |
+
+---------------------------
+Additional Notes
+---------------------------
+
+- Make sure you have all required .NET SDKs installed (e.g., .NET 8.0, 9.0).
+- If a build fails, read the **Error List** and **Output** windows in Visual Studio for exact issues.
+
+---------------------------
+
+End of Manual

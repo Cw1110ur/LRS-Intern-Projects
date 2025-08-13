@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+	<!-- Prevent adding net9.0-windows folder inside OutputPath -->
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <!-- Debug build output relative to project file -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <OutputPath>..\..\RUN EXES HERE\Load Tester Simulator .v3\References\LogIn\PD\</OutputPath>
+  </PropertyGroup>
+
+  <!-- Release build output -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <OutputPath>..\..\RUN EXES HERE\Load Tester Simulator .v3\References\LogIn\PD\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="AdderLogo.ico" />
+    <None Remove="AdderLogo2.png" />
+    <None Remove="lrs.ico" />
+    <None Remove="LRS.png" />
+    <None Remove="menu.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\Shared.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="AdderLogo.ico" />
+    <Resource Include="AdderLogo2.png" />
+    <Resource Include="lrs.ico" />
+    <Resource Include="LRS.png" />
+    <Resource Include="menu.png" />
+  </ItemGroup>
+
+</Project>

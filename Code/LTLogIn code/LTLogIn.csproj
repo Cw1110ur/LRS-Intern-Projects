@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<OutputPath>..\..\RUN EXES HERE\Load Tester Simulator .v3\References\LogIn\</OutputPath>
+	
+	<!-- Prevent adding net8.0 folder inside OutputPath -->
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AdderLogo.ico" />
+    <None Remove="AdderLogo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AdderLogo.ico" />
+    <Resource Include="AdderLogo.png" />
+  </ItemGroup>
+
+</Project>

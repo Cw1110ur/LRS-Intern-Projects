@@ -1,0 +1,14 @@
+{
+	"hostname": "hw10737.lrsinc.org",
+	"VPSID": [ "HMVPS1" ],
+	"ssh": {
+		"serverDataSetup": true,
+		"servers": [ "user@hostname1", "user@hostname2" ]
+	},
+	"Account": {
+		"Username": "howard.morgenthaler@lrs.com",
+		"Password": "Hellsing1Alucard0Ultimate5%"
+	},
+	"logPath": "C:\\Users\\E7016\\OneDrive - Levi, Ray & Shoup, Inc\\Intern Project 2024\\FINAL\\ClientLoadTester\\bin\\Debug\\Logs\\application.log",
+	"jobsPath": "Jobs"
+}
