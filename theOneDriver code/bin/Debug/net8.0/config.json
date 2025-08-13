@@ -1,0 +1,13 @@
+{
+	"hostname": "hw09971.lrsinc.org",
+	"VPSID": [ "SCSVPS1" ],
+	"ssh": {
+		"serverDataSetup": true,
+		"servers": [ "user@hostname1", "user@hostname2" ]
+	},
+	"Account": {
+		"Username": "samuel.scoles@lrs.com",
+		"Password": "j0nowsaysMAandShowers#$"
+	},
+	"logPath": "C:\\Users\\E7398\\Desktop\\Intern Project 2024\\theOne\\theOneCLT\\logFile.txt"
+}

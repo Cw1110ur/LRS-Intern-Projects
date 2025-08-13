@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>theOneDriver</id>
+    <version>1.0.0</version>
+    <authors>theOneDriver</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\e7633\Desktop\working LT files\bin\Debug\net8.0\theOneDriver.runtimeconfig.json" target="lib\net8.0\theOneDriver.runtimeconfig.json" />
+    <file src="C:\Users\e7633\Desktop\working LT files\bin\Debug\net8.0\theOneDriver.dll" target="lib\net8.0\theOneDriver.dll" />
+  </files>
+</package>
