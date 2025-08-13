@@ -1,0 +1,33 @@
+C:\Users\e7633\Desktop\BIGTEST\Shared\bin\Debug\net9.0-windows\Shared.deps.json
+C:\Users\e7633\Desktop\BIGTEST\Shared\bin\Debug\net9.0-windows\Shared.dll
+C:\Users\e7633\Desktop\BIGTEST\Shared\bin\Debug\net9.0-windows\Shared.pdb
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfoInputs.cache
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfo.cs
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.csproj.CoreCompileInputs.cache
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.dll
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\refint\Shared.dll
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\Shared.pdb
+C:\Users\e7633\Desktop\BIGTEST\Shared\obj\Debug\net9.0-windows\ref\Shared.dll
+C:\Users\e7633\Desktop\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.deps.json
+C:\Users\e7633\Desktop\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.dll
+C:\Users\e7633\Desktop\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.pdb
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfoInputs.cache
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfo.cs
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.csproj.CoreCompileInputs.cache
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.dll
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\refint\Shared.dll
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.pdb
+C:\Users\e7633\Desktop\LoadGenTool\Shared\obj\Debug\net9.0-windows\ref\Shared.dll
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.deps.json
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.dll
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\bin\Debug\net9.0-windows\Shared.pdb
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfoInputs.cache
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.AssemblyInfo.cs
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.csproj.CoreCompileInputs.cache
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.dll
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\refint\Shared.dll
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\Shared.pdb
+C:\Users\E7624\OneDrive - Levi, Ray & Shoup, Inc\Training\LoadGenTool\Shared\obj\Debug\net9.0-windows\ref\Shared.dll
